@@ -1,15 +1,18 @@
-# AlaskaAirlinesInternship
+# Alaska Airlines Internship
 Greed Kata Game
+
 
 Questions that you came up with:
 
 -How to store the data (integers/integer arrays vs HashMaps)
+
 
 Assumptions you made:
 
 -That the numbers rolled could only be between 1 and 6
 -That the user prompt to roll five dice just meant a prompt to play the game
 -That the user can play multiple games in a row if they would like to (I also added their total points across all games played at the end for them to see)
+
 
 The different paths of solutions you contemplated:
 

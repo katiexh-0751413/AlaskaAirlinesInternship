@@ -10,15 +10,4 @@ Assumptions you made:
 -That the user can play multiple games in a row if they would like to (I also added their total points across all games played at the end for them to see)
 
 The different paths of solutions you contemplated:
-Originally, I solved this problem using if/else statements, as such:
-  if (i == 0) {
-    totalPoints += (counts[i] / 3) * 1000;
-    totalPoints += (counts[i] % 3) * 100;
-  } else if (i == 4) {
-    totalPoints += (counts[i] / 3) * 500;
-    totalPoints += (counts[i] % 3) * 50;
-  } else {
-    totalPoints += (counts[i] / 3) * ((i + 1) * 100);
-  }
-  
-Then, later I decided to use a HashMap of integers and integer arrays to store the data instead, as this would make my code cleaner. Now, instead of checking for every type of possibility (single 1 vs. single 5 vs. triple 1, etc.), I can just do all the calculations in two lines.
+Originally, I solved this problem using if/else statements. Then, later I decided to use a HashMap of integers and integer arrays to store the data instead, as this would make my code cleaner. Now, instead of checking for every type of possibility (single 1 vs. single 5 vs. triple 1, etc.), I can just do all the calculations in two lines.

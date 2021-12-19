@@ -21,4 +21,4 @@ Originally, I solved this problem using if/else statements, as such:
     totalPoints += (counts[i] / 3) * ((i + 1) * 100);
   }
   
-Then, later I decided to use a HashMap of integers and integer arrays to store the data instead, as this would make my code more clear and readable.
+Then, later I decided to use a HashMap of integers and integer arrays to store the data instead, as this would make my code cleaner. Now, instead of checking for every type of possibility (single 1 vs. single 5 vs. triple 1, etc.), I can just do all the calculations in two lines.
